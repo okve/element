@@ -1,4 +1,7 @@
-export { default as Button } from './packages/Button';
-export { default as Icon } from './packages/Icon';
-export { default as Text } from './packages/Text';
-export { default as Container } from './packages/Container';
+export { default as Foo } from './Foo';
+export { default as Bar } from './Bar';
+export { default as Button } from './Button';
+export { default as Container } from './Container';
+export { default as Image } from './Image';
+export { default as Text } from './Text';
+export { default as Icon } from './Icon';

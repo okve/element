@@ -1,12 +1,12 @@
-## Button
+## Icon
 
 Demo:
 
-```js
+```jsx
 import React from 'react';
-import { Button } from 'okve';
+import { Icon } from 'element';
 
-export default () => <Button>我是按钮</Button>;
+export default () => <Icon title="First Demo" />;
 ```
 
 More skills for writing demo: https://d.umijs.org/guide/demo-principle

@@ -1,12 +1,12 @@
-## Text
+## Bar
 
 Demo:
 
-```js
+```jsx
 import React from 'react';
-import { Text } from 'okve';
+import { Bar } from 'element';
 
-export default () => <Text>我是文本</Text>;
+export default () => <Bar title="First Demo" />;
 ```
 
 More skills for writing demo: https://d.umijs.org/guide/demo-principle

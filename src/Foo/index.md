@@ -1,12 +1,12 @@
-## Container
+## Foo
 
 Demo:
 
-```js
+```jsx
 import React from 'react';
-import { Container } from 'okve';
+import { Foo } from 'element';
 
-export default () => <Container>我是容器</Container>;
+export default () => <Foo title="First Demo" />;
 ```
 
 More skills for writing demo: https://d.umijs.org/guide/demo-principle
