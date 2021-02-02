@@ -8,7 +8,7 @@ import './index.less';
 const BUTTON_PREFIX = `${CLASS_PREFIX}-button`;
 
 const Button = (
-  { text, type, size, status, icon, iconColor, className, ...restProps },
+  { text, type = 'primary', size = 'lg', status = 'normal', icon, iconColor, className, ...restProps },
   ref,
 ) => {
   return (
