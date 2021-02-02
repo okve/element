@@ -1,6 +1,6 @@
 {
   "name": "@okve/element",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "contributors": [
     "luxixi"
   ],
@@ -17,7 +17,6 @@
   },
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
-  "typings": "dist/index.d.ts",
   "gitHooks": {
     "pre-commit": "lint-staged"
   },
@@ -34,6 +33,7 @@
     "url": "git+ssh://git@github.com:okve/element.git"
   },
   "dependencies": {
+    "classnames": "^2.2.6",
     "react": "^16.12.0"
   },
   "devDependencies": {
