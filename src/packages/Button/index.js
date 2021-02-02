@@ -31,10 +31,4 @@ const Button = (
   );
 };
 
-Button.defaultProps = {
-  type: 'primary',
-  size: 'lg',
-  status: 'normal',
-};
-
 export default forwardRef(Button);
